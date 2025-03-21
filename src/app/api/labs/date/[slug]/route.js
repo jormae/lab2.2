@@ -24,7 +24,7 @@ export async function GET( request, {params} ) {
                         ORDER BY labTypeName DESC`
             const [rows] = await db.execute(query, [date, date])
             db.release()
-            console.log('result = ', JSON.stringify(rows))            
+            // console.log('result = ', JSON.stringify(rows))            
             return NextResponse.json(rows)
         } catch (err) {
             return NextResponse.json({

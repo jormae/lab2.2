@@ -92,9 +92,13 @@ insert user field such email, telephone
 =============================================
 BUILD DOCKER IMAGE
 1. modify db info into db.js file
-2. build image
+2.1 build image
 ```bash
 docker build -t lab2.2 .
+```
+2.1 build image
+```bash
+docker push jormae/lab2.2 .
 ```
 * if build failed try to run
 ```bash

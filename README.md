@@ -105,6 +105,9 @@ npm install --global yarn
 docker build -t lab:1.0.0 .
 ```
 3.run image using docker desktop 
+```bash
+docker pull jormae/lab2.2
+```
 3.1 set container name
 ```bash
 lab2.0
@@ -113,7 +116,7 @@ lab2.0
 ```bash
 3000
 ```
-3.3 set environment variables
+3.3 set environment variables 'jhcisdb'
 ```bash
 NEXT_HOST_NAME
 ```
@@ -132,5 +135,5 @@ NEXT_DB_PORT
 
 4.update auto restart container
 ```bash
-docker update --restart=always lab
+docker update --restart=always lab2.2
 ```

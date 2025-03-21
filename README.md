@@ -94,15 +94,15 @@ BUILD DOCKER IMAGE
 1. modify db info into db.js file
 2. build image
 ```bash
-docker build -t lab:1.0.0 .
+docker build -t lab2.2 .
 ```
-* if build failed the run
+* if build failed try to run
 ```bash
-npm install --global yarn
+yarn install
 ```
 ** to install yarn run command in cmd
 ```bash
-docker build -t lab:1.0.0 .
+npm install --global yarn
 ```
 3.run image using docker desktop 
 ```bash

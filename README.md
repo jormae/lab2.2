@@ -96,14 +96,15 @@ BUILD DOCKER IMAGE
 ```bash
 docker build -t jormae/lab2.2 .
 ```
-2.2 pull image
-```bash
-docker pull jormae/lab2.2
-```
-2.3 push image
+2.2 push image
 ```bash
 docker push jormae/lab2.2
 ```
+2.3 pull image
+```bash
+docker pull jormae/lab2.2
+```
+
 * if build failed try to run
 ```bash
 yarn install
